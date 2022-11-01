@@ -5,7 +5,7 @@ const tel = document.querySelector(".tel"); //휴대폰번호 tel
 const pwd1 = document.querySelector(`#pwd1`); // 비밀번호 
 const pwd2 = document.querySelector(`#pwd2`); // 비밀번호 확인
 const order = document.querySelector('.btn_order'); //비회원 주문 버튼
-
+const order_reset = document.querySelector('.btn_reset'); //주문 취소 버튼
 
 $('.menu_Location').click(function(){
     $('header .location').slideToggle()
@@ -13,7 +13,7 @@ $('.menu_Location').click(function(){
 
 
 
-//비회원 주문 버튼 클릭 이벤트 
+// 비회원 주문 버튼 클릭 이벤트 
 order.addEventListener('click', function () {
     const telConf = telConfirm();
     const pwdConf = pwdConfirm();
@@ -24,6 +24,26 @@ order.addEventListener('click', function () {
       }
 });
 
+order_reset.addEventListener('click', function () {
+    if (confirm("주문을 취소하고 메인페이지로 돌아가시겠습니까?") == true){
+        document.location.href="../Index.html";
+    } else {
+        return false;
+    }
+})
+    
+
+
+
+// $('.btn_order').click(function(){
+//     const telConf = telConfirm();
+//     const pwdConf = pwdConfirm();
+//     const numConf = numConfirm();
+//     const chkConf = is_checked();
+//     if (chkConf && telConf && numConf && pwdConf) {
+//         alert("주문페이지로 이동합니다.")
+//     }
+// })
 
 
 // 이용약관 동의했는지 확인하는 함수.
@@ -65,6 +85,16 @@ chknum.addEventListener('click', () =>{
         alert("인증번호는 " + cert_num + " 입니다")
 })
 
+//인증번호 4자리수로 입력제한
+function numberMaxLength(e){
+
+    if(e.value.length > e.maxLength){
+
+        e.value = e.value.slice(0, e.maxLength);
+
+    }
+
+}
 
 
 // 발급한 인증번호와 입력이 동일한지 확인
@@ -119,4 +149,17 @@ function pwdConfirm() {
     }}
 }
 
+// 비밀번호 보이기 on off 기능 --- with 눈 아이콘
+$(function(){
+    $('.td_pwd i').on('click',function(){
+        $('input').toggleClass('active');
+        if($('input').hasClass('active')){
+            $(this).attr('class',"fa-solid fa-eye ")
+            .prev('input').attr('type',"text");
+        }else{
+            $(this).attr('class',"fa-solid fa-eye-slash")
+            .prev('input').attr('type','password');
+        }
+    });
+});
 

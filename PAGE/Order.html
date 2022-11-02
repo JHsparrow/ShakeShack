@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../CSS/order.CSS">
     <link rel="stylesheet" href="../library/animate/animate.css">
     <link rel="stylesheet" href="../CSS/common.CSS">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Dongle&family=Fjalla+One&family=Lobster&display=swap');
     </style>
@@ -177,6 +178,16 @@
     <!-- 본문시작 -->
     <main>
         <div class="wrap">
+            <div class="add_left">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="../IMG/shake01.jpg" alt="광고하나"></div>
+                      <div class="swiper-slide"><img src="../IMG/shake02.jpg" alt="광고둘"></div>
+                      <div class="swiper-slide"><img src="../IMG/shake03.jpg" alt="광고셋"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+            </div>
             <div class="contentsBox01">
                 <h2 class="title02"> 비회원 주문</h2> <!-- 비회원 주문 -->
                 <h3 class="title01">&nbsp;<i class="fa-solid fa-user"></i> 개인정보 수집</h3> <!-- 사람 아이콘 n 개인정보 수집 -->
@@ -298,6 +309,7 @@
     <!-- footer 끝 -->
 
 </body>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 <script src="../JS/jquery-3.6.0.min.js"></script>
-<script src="../JS/common.js"></script>
+<script src="../JS/order.js"></script>
 </html>

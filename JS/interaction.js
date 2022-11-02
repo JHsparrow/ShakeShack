@@ -1,3 +1,26 @@
+/* leesangmin : Food&Drink common.js merge */
+/* to scroll TOP switch */
+
+$(window).on('scroll', function () {
+  if ($(this).scrollTop() > 300) {
+    $('.toHead').fadeIn();
+  } else {
+    $('.toHead').fadeOut();
+  }
+});
+
+$('.toHead').click(function () {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+$('.toHead').mouseover(function () {
+  $('.toHead').css('color', 'grey');
+});
+
+$('.toHead').mouseout(function () {
+  $('.toHead').css('color', '#60ae2b');
+});
+
 /* nav 메뉴별 name 전환  */
 
 $('.move__Bur').mouseover(function () {
@@ -82,7 +105,6 @@ $('.move__Wof').mouseout(function () {
 });
 
 /* 메뉴별 자세히 보기 설정 */
-
 $('.seeDetails').click(function () {
   $('.seeDetails')
     .not(this)

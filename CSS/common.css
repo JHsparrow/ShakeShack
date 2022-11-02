@@ -189,6 +189,10 @@ footer .menu > ul {
   font-weight: 600;
   color: #848484;
 }
+footer .menu > ul > li > a {
+  color: #848484;
+  cursor: pointer;
+}
 
 footer .footer__Down {
   padding-top: 30px;

@@ -41,9 +41,28 @@ header .nav > span {
   color: #60ae2b;
   font-weight: 550;
 }
+.nav > span > a > img {
+  transition: 0.3s;
+}
 header .nav > span > img:hover {
   cursor: pointer;
 }
+.menu_Location > a > img:hover {
+  opacity: 0;
+}
+.menu_Brand > a > img:hover {
+  opacity: 0;
+}
+.menu_Delivery > a > img:hover {
+  opacity: 0;
+}
+.menu_Food > a > img:hover {
+  opacity: 0;
+}
+.nav__menu.on {
+  display: none;
+}
+
 /* 네비게이션 */
 
 header .menu_Logo > img {
@@ -169,6 +188,10 @@ footer .menu > ul {
   line-height: 2.1;
   font-weight: 600;
   color: #848484;
+}
+footer .menu > ul > li > a {
+  color: #848484;
+  cursor: pointer;
 }
 
 footer .footer__Down {

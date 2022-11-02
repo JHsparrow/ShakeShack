@@ -7,10 +7,6 @@ const pwd2 = document.querySelector(`#pwd2`); // 비밀번호 확인
 const order = document.querySelector(".btn_order"); //비회원 주문 버튼
 const order_reset = document.querySelector(".btn_reset"); //주문 취소 버튼
 
-$(".menu_Location").click(function () {
-  $("header .location").slideToggle();
-});
-
 // 비회원 주문 버튼 클릭 이벤트
 order.addEventListener("click", function () {
   const telConf = telConfirm();
@@ -22,6 +18,7 @@ order.addEventListener("click", function () {
   }
 });
 
+//주문 취소 버튼 클릭 이벤트
 order_reset.addEventListener("click", function () {
   if (confirm("주문을 취소하고 메인페이지로 돌아가시겠습니까?") == true) {
     document.location.href = "../Index.html";
@@ -29,16 +26,6 @@ order_reset.addEventListener("click", function () {
     return false;
   }
 });
-
-// $('.btn_order').click(function(){
-//     const telConf = telConfirm();
-//     const pwdConf = pwdConfirm();
-//     const numConf = numConfirm();
-//     const chkConf = is_checked();
-//     if (chkConf && telConf && numConf && pwdConf) {
-//         alert("주문페이지로 이동합니다.")
-//     }
-// })
 
 // 이용약관 동의했는지 확인하는 함수.
 function is_checked() {
@@ -154,6 +141,7 @@ $(function () {
   });
 });
 
+// 왼쪽 swiper 슬라이드 관련 옵션
 var swiper = new Swiper(".mySwiper", {
   spaceBetween: 30,
   centeredSlides: true,

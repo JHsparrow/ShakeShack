@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const btn_auth = document.querySelector('.btn_auth'); // 이용약관 상세보기 버튼
 const panel = document.querySelector('.acc_cont'); // 이용약관 상세 내용
 const chknum = document.querySelector('.numSubmit'); // 인증번호 발송 버튼
@@ -162,3 +163,8 @@ $(function () {
     }
   });
 });
+=======
+$('.menu_Location').click(function(){
+    $('header .location').slideToggle()
+})
+>>>>>>> bc9906972ef7962e1221739b75a4c63367ac0982

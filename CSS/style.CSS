@@ -45,8 +45,7 @@
 
 fieldset p { /* 아이콘 클릭시 해당 어플로 이동합니다  */
     text-align: center;
-    font-size: 1.8em;
-    margin: 16px;
+    
 }
 
 fieldset .deliveryLink { /* 딜리버리 네모박스 __ 어플 링크 */

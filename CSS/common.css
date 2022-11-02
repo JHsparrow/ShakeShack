@@ -213,37 +213,3 @@ footer .details p {
 footer .details .bottom {
   color: #999999;
 }
-
-footer .fb {
-  background: white;
-  /* margin: 0 auto; */
-  width: 60px;
-  height: 45px;
-  position: absolute;
-  left: 450px;
-  bottom: 50px;
-  font-size: 1.3rem;
-  border-radius: 4px;
-  background-color: #1877f2;
-}
-
-footer .fb .fb__like {
-  height: 22px;
-  line-height: 22px;
-  background-color: #fff;
-  border-radius: 4px 4px 0px 0px;
-}
-
-footer .fb .fb__like span {
-  font-size: 1.2rem;
-}
-
-<<<<<<< HEAD
-.headerFont {
-  font-family: 'Lobster', cursive;
-}
-=======
-.headerFont{
-    font-family: 'Lobster', cursive;
-}
->>>>>>> bc9906972ef7962e1221739b75a4c63367ac0982

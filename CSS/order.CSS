@@ -1,19 +1,11 @@
 @charset "utf-8";
-
-h2 {
-    font-size: 23px;
-    padding-bottom: 13px;
+.header {
+    width: 100%;
+    height: 90px;
+    background: blue;
+    
 }
 
-h3 {
-    font-size: 18px;
-    padding-bottom: 13px;
-}
-
-h4 {
-    font-size: 15px;
-    padding: 10px 0px;
-}
 .footer {
     float: left;
     width: 100%;
@@ -37,16 +29,11 @@ h4 {
 
 .contentsBox01 > h2 { /* 비회원주문, 이름, 휴대폰번호, 인증번호, 비밀번호 */
     margin: 0 auto;
-    padding: 10px;
 }
 
 
 .acc_cont { /* 이용약관 상세보기 (none 상태) */
     display: none;
-}
-
-.auth_title {
-    font-size: 15px;
 }
 
 
@@ -79,7 +66,7 @@ input#check01:checked + label::before{ /* 체크박스 체크시 검은색 V체�
 
 .auth_title > label > span { /* 쉐이크쉑버거 이용약관 */
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.4rem;
 }
 
 .btn_auth { /* 이용약관 상세보기 버튼 */
@@ -108,7 +95,7 @@ input#check01:checked + label::before{ /* 체크박스 체크시 검은색 V체�
 .user_set .table_input{ /* 비회원설정 - input값 박스 */
     border: 0;
     border-bottom: 3px solid black; 
-    width: 450px;
+    width: 500px;
     height: 32px;
     
 }
@@ -143,7 +130,6 @@ input#check01:checked + label::before{ /* 체크박스 체크시 검은색 V체�
 
 .btn00 { /* 비회원 주문버튼 가운데정렬 */
     text-align: center;
-    font-size: 13px
 }
 
 .btn01 { /* 인증번호, 비회원주문 버튼 모양 */
@@ -176,32 +162,3 @@ input[type="number"]::-webkit-inner-spin-button {
     appearance: none;
     margin: 0;
 }
-
-
-.btn_reset { /* 인증번호, 비회원주문 버튼 모양 */
-    background: whitesmoke;
-    border: 0;
-    border-radius: 20px;
-    text-decoration: none;
-    display: inline-block;
-    border: none;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 1.7em;
-    font-weight: bold;
-    margin: 4px 4px;
-    cursor: pointer;
-}
-
-
-.td_text i{
-    position: relative;
-    left: 94%;
-    bottom: 27px;
-    font-size: 22px;
-    background: none;
-}
-
-

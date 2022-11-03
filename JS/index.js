@@ -4,6 +4,7 @@ const but3 = document.querySelector(".button3");
 const myS1 = document.querySelector(".swiper1");
 const myS2 = document.querySelector(".swiper2");
 const myS3 = document.querySelector(".swiper3");
+const myS4 = document.querySelector(".swiper4");
 const backbt1 = document.querySelector("#bt1");
 const backbt2 = document.querySelector("#bt2");
 const backbt3 = document.querySelector("#bt3");
@@ -27,8 +28,8 @@ var swiper = new Swiper(".mySwiper", {
   grabCursor: true,
 });
 
-// 두번째 스와이퍼 디폴트값
-var swiper1 = new Swiper(".mySwiper1", {
+// 두번째 스와이퍼 디폴트값 (스와이퍼 4번)
+var swiper4 = new Swiper(".mySwiper4", {
   loop: true,
   loopAdditionalSlides: 1,
   slidesPerView: 4,
@@ -56,6 +57,7 @@ but1.addEventListener("click", function () {
   but2.style.color = "black";
   myS3.style.display = "none";
   but3.style.color = "black";
+  myS4.style.display = "none";
 
   var swiper1 = new Swiper(".mySwiper1", {
     loop: true,
@@ -83,6 +85,8 @@ but2.addEventListener("click", function () {
   but2.style.color = "white";
   myS3.style.display = "none";
   but3.style.color = "black";
+  myS4.style.display = "none";
+
   var swiper2 = new Swiper(".mySwiper2", {
     loop: true,
     // loopAdditionalSlides : 1,
@@ -109,6 +113,8 @@ but3.addEventListener("click", function () {
   but2.style.color = "black";
   myS3.style.display = "block";
   but3.style.color = "white";
+  myS4.style.display = "none";
+
   var swiper3 = new Swiper(".mySwiper3", {
     loop: true,
     // loopAdditionalSlides : 1,
@@ -127,3 +133,5 @@ but3.addEventListener("click", function () {
     init: true,
   });
 });
+
+// but1.addEventListener("mouseover", function () {});

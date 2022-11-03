@@ -1,3 +1,25 @@
+.main__img > :first-child {
+  text-align: center;
+  color: #fff;
+}
+
+.img3 > :first-child {
+  font-size: 3.4rem;
+  font-family: "Lobster", sans-serif;
+  padding-top: 67px;
+  padding-bottom: 20px;
+}
+
+.img3 > :nth-child(2) {
+  font-size: 2rem;
+  padding-bottom: 60px;
+  font-weight: lighter;
+}
+
+.img3 > span {
+  font-size: 1.2rem;
+}
+
 main .box {
   width: 900px;
   height: 380px;

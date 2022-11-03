@@ -47,20 +47,51 @@ header .nav > span {
 header .nav > span > img:hover {
   cursor: pointer;
 }
-.menu_Location > a > img:hover {
+
+.menu_Location > a {
+  position: relative;
+}
+.menu_Location > a > img + img {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   opacity: 0;
 }
-.menu_Brand > a > img:hover {
+
+.menu_Brand > a {
+  position: relative;
+}
+.menu_Brand > a > img + img {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   opacity: 0;
 }
-.menu_Delivery > a > img:hover {
+.menu_Delivery > a {
+  position: relative;
+}
+.menu_Delivery > a > img + img {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   opacity: 0;
 }
-.menu_Food > a > img:hover {
-  opacity: 0;
+.menu_Food > a {
+  position: relative;
 }
-.nav__menu.on {
-  display: none;
+.menu_Food > a > img + img {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  opacity: 0;
 }
 
 /* 네비게이션 */

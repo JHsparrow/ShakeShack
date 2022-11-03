@@ -160,6 +160,10 @@ html {
   padding-bottom: 50px;
 }
 
+.seeDetails p img {
+  cursor: pointer;
+}
+
 /* 햄버거 세션 */
 
 .menuDetails__Hamburger {
@@ -438,6 +442,5 @@ li .stMenu {
 }
 
 li .stMenu p:nth-of-type(2) {
-  background-color: #2c5e0b;
-  opacity: 50%;
+  background-color: #e6f2dd;
 }

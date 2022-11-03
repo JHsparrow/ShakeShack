@@ -9,13 +9,21 @@ const order_reset = document.querySelector(".btn_reset"); //주문 취소 버튼
 
 // 비회원 주문 버튼 클릭 이벤트
 order.addEventListener("click", function () {
-  const telConf = telConfirm();
-  const pwdConf = pwdConfirm();
-  const numConf = numConfirm();
-  const chkConf = is_checked();
-  if (chkConf && telConf && numConf && pwdConf) {
-    alert("주문페이지로 이동합니다.");
+  
+
+  if (!tel.value.replace(/ /g, "")) {
+    //공백일때 경고창
+    alert("휴대폰 번호를 반드시 입력해주세요");
+  } else {
+    if (!telCheck(tel.value.replace(/ /g, ""))) {
+      alert("휴대폰 번호 형식이 맞지 않습니다.");
+      return false;
+    } else {
+      return true;
+    }
   }
+
+  if 
 });
 
 //주문 취소 버튼 클릭 이벤트

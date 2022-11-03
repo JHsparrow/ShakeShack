@@ -66,7 +66,6 @@
 
 html {
   scroll-behavior: smooth;
-  delay: 0.5s;
   max-width: 1000000px;
 }
 
@@ -111,7 +110,7 @@ html {
 .menuMove {
   margin: 0 auto;
   width: 85%;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #eee;
   text-align: center;
 }
 
@@ -126,6 +125,7 @@ html {
   justify-content: center;
   text-align: center;
   margin-right: 10px;
+  font-size: 0.8rem;
 }
 
 .menuMove .menuMove__move li a {
@@ -166,7 +166,7 @@ html {
   margin: 0 auto;
   padding: 10px;
   text-align: center;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #eee;
 }
 
 .Hamburger__Up {
@@ -192,7 +192,7 @@ html {
   margin: 0 auto;
   padding: 10px;
   text-align: center;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #eee;
 }
 .Chicken__Up {
   display: flex;
@@ -216,7 +216,7 @@ html {
   margin: 0 auto;
   padding: 10px;
   text-align: center;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #eee;
 }
 .Flat-top-dogs__Up {
   display: flex;
@@ -240,7 +240,7 @@ html {
   margin: 0 auto;
   padding: 10px;
   text-align: center;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #eee;
 }
 .Side__Up {
   display: flex;
@@ -264,7 +264,7 @@ html {
   margin: 0 auto;
   padding: 10px;
   text-align: center;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #eee;
 }
 .Custard__Up {
   display: flex;
@@ -288,7 +288,7 @@ html {
   margin: 0 auto;
   padding: 10px;
   text-align: center;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #eee;
 }
 .Concretes__Up {
   display: flex;
@@ -312,7 +312,7 @@ html {
   margin: 0 auto;
   padding: 10px;
   text-align: center;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #eee;
 }
 .Drinks__Up {
   display: flex;
@@ -336,7 +336,7 @@ html {
   margin: 0 auto;
   padding: 10px;
   text-align: center;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid#eee;
 }
 .Breakfast__Up {
   display: flex;
@@ -395,15 +395,27 @@ html {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  border-top: 5px solid black;
+  border-top: 2px solid black;
+  font-size: 0.7rem;
+  line-height: 19px;
+  padding: 0px;
 }
 
 .List__Storeconcrete .Storeconcrete__List li {
-  width: 31.5%;
+  width: 33.2%;
   flex-direction: row;
-  border: 1px solid gray;
-  justify-content: left;
   border-collapse: collapse;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  justify-content: left;
+  padding: 0;
+}
+
+.List__Storeconcrete ul:nth-of-type(1) {
+  border-left: 1px solid #ccc;
+}
+.List__Storeconcrete ul:nth-of-type(4n) {
+  border-left: 1px solid #ccc;
 }
 
 li .Store {
@@ -413,15 +425,16 @@ li .Store {
 }
 
 li .Store p {
-  padding-top: 23%;
+  padding-top: 25%;
 }
 
 li .stMenu {
   width: 74%;
+  border-left: 1px solid #ccc;
 }
 
 .Storeconcrete__List li .stMenu p {
-  margin-left: 5px;
+  padding-left: 5px;
 }
 
 li .stMenu p:nth-of-type(2) {

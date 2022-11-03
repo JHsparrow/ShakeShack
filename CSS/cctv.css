@@ -11,3 +11,69 @@ main > .main__img > .img__box {
   height: 320px;
   background: url(../IMG/sub_visual_01.jpg) no-repeat;
 }
+
+main .personal {
+  width: 100vw;
+}
+
+.personal__wrap {
+  width: 780px;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.personal__wrap > h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 10px;
+}
+
+.personal__wrap > h3 {
+  font-size: 1.7rem;
+  padding-top: 20px;
+}
+
+.personal__wrap > p {
+  font-size: 1.2rem;
+  padding: 5px 0px 10px;
+}
+
+.personal__wrap table td {
+  font-size: 1.2rem;
+  padding: 8px 5px;
+  line-height: 160%;
+}
+
+.personal__wrap table {
+  margin: auto;
+  width: 755px;
+  text-align: center;
+}
+
+.personal__wrap table,
+.personal__wrap td {
+  border: 1px solid #999;
+  border-collapse: collapse;
+}
+
+.personal__wrap .tb__cctv {
+  text-align: left;
+}
+
+.half > tbody > tr > td {
+  width: 50%;
+}
+
+.quater > tbody > tr > td {
+  width: 25%;
+}
+
+.half > tbody > :first-child,
+.quater > tbody > :first-child {
+  background-color: #eee;
+}
+
+caption {
+  display: none;
+}

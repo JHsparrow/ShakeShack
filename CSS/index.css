@@ -189,6 +189,7 @@
   font-family: "Noto Serif KR", serif;
   font-weight: bold;
   border: 3px solid black;
+  cursor: pointer;
 }
 
 #bt1 {
@@ -454,6 +455,11 @@
 .swiper-pagination {
   display: flex;
   flex-direction: row-reverse;
+}
+
+.swiper .swiper-pagination-bullet {
+  background-color: greenyellow;
+  margin: 0 10px;
 }
 
 /*  */

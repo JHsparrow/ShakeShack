@@ -2,10 +2,6 @@ $('.menu_Location').click(function () {
   $('header .location').slideToggle();
 });
 
-$('.menu_Location').click(function () {
-  $('header .location').slideToggle();
-});
-
 $('.menu_Location a').mouseover(function () {
   $('.menu_Location a #LoNho').css('opacity', '0');
   $('.menu_Location a #LoYho').css('opacity', '1');

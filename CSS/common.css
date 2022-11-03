@@ -28,9 +28,9 @@ header {
 /* 네비게이션 */
 header .nav {
   width: 1062px;
-  height: 120px;
+  height: 100px;
   margin: 0 auto;
-  line-height: 120px;
+  line-height: 100px;
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -101,6 +101,13 @@ header .menu_Logo > img {
   top: 13px;
   right: 5px;
 }
+.menu_Logo > a > img {
+  position: relative;
+  top: 10px;
+}
+.menu_Location > a {
+  cursor: pointer;
+}
 
 header .nav .nav__menu {
   height: 14px;
@@ -111,24 +118,22 @@ header .btn {
   float: right;
   margin-top: 10px;
   margin-right: 16px;
-  margin-bottom: -20px;
 }
 
 header .btn .btn__signup,
 header .btn .btn__order {
-  width: 70px;
-  height: 25px;
+  width: 75px;
+  padding: 5px;
   margin-left: 4px;
   margin-right: 4px;
   border: none;
   border-radius: 20px;
   background-color: #60ae2b;
   color: white;
+  cursor: pointer;
 }
-
-header .btn .btn__signup > span,
-header .btn .btn__order > span {
-  /* margin-bottom: px; */
+header .btn button a {
+  color: white;
 }
 
 header .location {

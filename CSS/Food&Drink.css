@@ -85,6 +85,8 @@ html {
   width: 1000px;
   margin: 0 auto;
   text-align: center;
+  font-size: 13px;
+  line-height: 140%;
 }
 
 .toHead {
@@ -125,7 +127,6 @@ html {
   justify-content: center;
   text-align: center;
   margin-right: 10px;
-  font-size: 0.8rem;
 }
 
 .menuMove .menuMove__move li a {
@@ -178,9 +179,11 @@ html {
   justify-content: center;
   flex: 1;
   padding: 10px;
+  width: 800px;
 }
 .Hamburger__Up .Up__Photosession {
   width: 50%;
+  padding: 10px;
 }
 
 .Hamburger__Up .Up__Descsession {
@@ -203,9 +206,11 @@ html {
   justify-content: center;
   flex: 1;
   padding: 10px;
+  width: 800px;
 }
 .Chicken__Up .Up__Photosession {
   width: 50%;
+  padding: 10px;
 }
 
 .Chicken__Up .Up__Descsession {
@@ -227,9 +232,11 @@ html {
   justify-content: center;
   flex: 1;
   padding: 10px;
+  width: 800px;
 }
 .Flat-top-dogs__Up .Up__Photosession {
   width: 50%;
+  padding: 10px;
 }
 
 .Flat-top-dogs__Up .Up__Descsession {
@@ -251,9 +258,11 @@ html {
   justify-content: center;
   flex: 1;
   padding: 10px;
+  width: 800px;
 }
 .Side__Up .Up__Photosession {
   width: 50%;
+  padding: 10px;
 }
 
 .Side__Up .Up__Descsession {
@@ -275,9 +284,11 @@ html {
   justify-content: center;
   flex: 1;
   padding: 10px;
+  width: 800px;
 }
 .Custard__Up .Up__Photosession {
   width: 50%;
+  padding: 10px;
 }
 
 .Custard__Up .Up__Descsession {
@@ -299,9 +310,11 @@ html {
   justify-content: center;
   flex: 1;
   padding: 10px;
+  width: 800px;
 }
 .Concretes__Up .Up__Photosession {
   width: 50%;
+  padding: 10px;
 }
 
 .Concretes__Up .Up__Descsession {
@@ -323,9 +336,11 @@ html {
   justify-content: center;
   flex: 1;
   padding: 10px;
+  width: 800px;
 }
 .Drinks__Up .Up__Photosession {
   width: 50%;
+  padding: 10px;
 }
 
 .Drinks__Up .Up__Descsession {
@@ -347,9 +362,11 @@ html {
   justify-content: center;
   flex: 1;
   padding: 10px;
+  width: 800px;
 }
 .Breakfast__Up .Up__Photosession {
   width: 50%;
+  padding: 10px;
 }
 
 .Breakfast__Up .Up__Descsession {
@@ -370,9 +387,11 @@ html {
   justify-content: center;
   flex: 1;
   padding: 10px;
+  width: 800px;
 }
 .Woof__Up .Up__Photosession {
   width: 50%;
+  padding: 10px;
 }
 
 .Woof__Up .Up__Descsession {

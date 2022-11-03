@@ -59,7 +59,7 @@ order.addEventListener("click", function () {
 //주문 취소 버튼 클릭 이벤트
 order_reset.addEventListener("click", function () {
   if (confirm("주문을 취소하고 메인페이지로 돌아가시겠습니까?") == true) {
-    document.location.href = "../Index.html";
+    document.location.href = "./main.html";
   } else {
     return false;
   }
@@ -93,8 +93,8 @@ chknum.addEventListener("click", () => {
 
 //인증번호 4자리수로 입력제한
 function numberMaxLength(e) {
-  if (e.value.length > e.maxLength) {
-    e.value = e.value.slice(0, e.maxLength);
+  if (e.value.length > 4) {
+    e.value = e.value.slice(0, 4);
   }
 }
 
@@ -135,3 +135,8 @@ var swiper = new Swiper(".mySwiper", {
     clickable: true,
   },
 });
+
+/* Order페이지로 이동하는 함수 */
+function Moving() {
+  location.href = "../Order.html";
+}

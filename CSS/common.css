@@ -53,26 +53,46 @@ header .nav > span > img:hover {
 }
 .menu_Location > a > img + img {
   position: absolute;
-  top: 0;
-  left: 35%;
+  top: 10%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   opacity: 0;
 }
 
-/* .menu_Location > a > img:hover {
+.menu_Brand > a {
+  position: relative;
+}
+.menu_Brand > a > img + img {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   opacity: 0;
 }
-.menu_Brand > a > img:hover {
+.menu_Delivery > a {
+  position: relative;
+}
+.menu_Delivery > a > img + img {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   opacity: 0;
 }
-.menu_Delivery > a > img:hover {
+.menu_Food > a {
+  position: relative;
+}
+.menu_Food > a > img + img {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   opacity: 0;
 }
-.menu_Food > a > img:hover {
-  opacity: 0;
-} */
-/* .nav__menu.on {
-  display: none;
-} */
 
 /* 네비게이션 */
 
@@ -229,4 +249,8 @@ footer .details p {
 
 footer .details .bottom a {
   color: #999999 !important;
+}
+
+.headerFont {
+  font-family: 'Lobster', cursive;
 }

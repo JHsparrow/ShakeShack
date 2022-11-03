@@ -1,0 +1,13 @@
+main .main__img {
+  background-color: #60ae2b;
+  height: 320px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main > .main__img > .img__box {
+  margin: 0 auto;
+  width: 1062px;
+  height: 320px;
+  background: url(../IMG/sub_visual_01.jpg) no-repeat;
+}

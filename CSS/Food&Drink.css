@@ -55,7 +55,7 @@
 }
 
 .Up__Descsession .DescPhoto {
-  padding: 15px;
+  padding-bottom: 15px;
 }
 
 .Up__Descsession .DescText {
@@ -179,7 +179,6 @@ html {
   justify-content: center;
   flex: 1;
   padding: 10px;
-  width: 800px;
 }
 .Hamburger__Up .Up__Photosession {
   width: 50%;
@@ -206,7 +205,6 @@ html {
   justify-content: center;
   flex: 1;
   padding: 10px;
-  width: 800px;
 }
 .Chicken__Up .Up__Photosession {
   width: 50%;
@@ -232,7 +230,6 @@ html {
   justify-content: center;
   flex: 1;
   padding: 10px;
-  width: 800px;
 }
 .Flat-top-dogs__Up .Up__Photosession {
   width: 50%;
@@ -258,7 +255,6 @@ html {
   justify-content: center;
   flex: 1;
   padding: 10px;
-  width: 800px;
 }
 .Side__Up .Up__Photosession {
   width: 50%;
@@ -284,7 +280,6 @@ html {
   justify-content: center;
   flex: 1;
   padding: 10px;
-  width: 800px;
 }
 .Custard__Up .Up__Photosession {
   width: 50%;
@@ -310,7 +305,6 @@ html {
   justify-content: center;
   flex: 1;
   padding: 10px;
-  width: 800px;
 }
 .Concretes__Up .Up__Photosession {
   width: 50%;
@@ -336,7 +330,6 @@ html {
   justify-content: center;
   flex: 1;
   padding: 10px;
-  width: 800px;
 }
 .Drinks__Up .Up__Photosession {
   width: 50%;
@@ -362,7 +355,6 @@ html {
   justify-content: center;
   flex: 1;
   padding: 10px;
-  width: 800px;
 }
 .Breakfast__Up .Up__Photosession {
   width: 50%;
@@ -387,7 +379,6 @@ html {
   justify-content: center;
   flex: 1;
   padding: 10px;
-  width: 800px;
 }
 .Woof__Up .Up__Photosession {
   width: 50%;

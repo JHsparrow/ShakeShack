@@ -256,3 +256,7 @@ input[type="number"]::-webkit-inner-spin-button {
 caption {
   display: none;
 }
+
+.tableleng > span {
+  font-size: 23px;
+}

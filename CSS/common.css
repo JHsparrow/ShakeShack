@@ -137,6 +137,7 @@ main .main__img {
   background-color: #60ae2b;
   height: 320px;
   margin: 0 auto;
+  text-align: center;
 }
 
 main > .main__img > .img3 {
@@ -144,6 +145,11 @@ main > .main__img > .img3 {
   width: 1062px;
   height: 320px;
   background: url(../IMG/sub_visual_brandstory.jpg) no-repeat;
+}
+
+.main__Desc {
+  width: 1062px;
+  margin: 0 auto;
 }
 
 footer {

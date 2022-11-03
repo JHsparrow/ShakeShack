@@ -456,4 +456,9 @@
   flex-direction: row-reverse;
 }
 
+.swiper .swiper-pagination-bullet {
+  background-color: greenyellow;
+  margin: 0 10px;
+}
+
 /*  */

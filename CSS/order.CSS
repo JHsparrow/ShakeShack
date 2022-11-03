@@ -2,12 +2,11 @@
 
 h2 {
   font-size: 23px;
-  padding-bottom: 13px;
 }
 
 h3 {
   font-size: 18px;
-  padding-bottom: 13px;
+  padding: 13px;
 }
 
 h4 {
@@ -25,7 +24,7 @@ h4 {
 
 .wrap {
   /* 배경 */
-  background: wheat;
+  background: #e6f2dd;
 }
 
 .add_left {
@@ -72,14 +71,13 @@ h4 {
   /* 콘텐츠 들어가는 박스 전체 */
   max-width: 776px;
   margin: 0 auto;
-  background: wheat;
-  padding-bottom: 45px;
+  background: #e6f2dd;
 }
 
 .contentsBox01 > h2 {
   /* 비회원주문, 이름, 휴대폰번호, 인증번호, 비밀번호 */
   margin: 0 auto;
-  padding: 10px;
+  padding: 30px;
 }
 
 .acc_cont {
@@ -158,8 +156,9 @@ input#check01:checked + label::before {
   /* 비회원설정 - input값 박스 */
   border: 0;
   border-bottom: 3px solid black;
-  width: 450px;
+  width: 500px;
   height: 32px;
+  padding: 5px;
 }
 
 .user_set .table_input::placeholder {
@@ -210,8 +209,8 @@ input#check01:checked + label::before {
   text-decoration: none;
   font-size: 1.7em;
   font-weight: bold;
-  margin: 4px 4px;
   cursor: pointer;
+  margin: 30px;
 }
 
 .btn01 a {
@@ -230,6 +229,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .btn_reset {
   /* 인증번호, 비회원주문 버튼 모양 */
+  width: 180.64px;
   background: whitesmoke;
   border: 0;
   border-radius: 20px;
@@ -242,7 +242,6 @@ input[type="number"]::-webkit-inner-spin-button {
   text-decoration: none;
   font-size: 1.7em;
   font-weight: bold;
-  margin: 4px 4px;
   cursor: pointer;
 }
 
@@ -252,4 +251,12 @@ input[type="number"]::-webkit-inner-spin-button {
   bottom: 27px;
   font-size: 22px;
   background: none;
+}
+
+caption {
+  display: none;
+}
+
+.tableleng > span {
+  font-size: 23px;
 }

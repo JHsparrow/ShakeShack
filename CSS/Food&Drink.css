@@ -55,7 +55,7 @@
 }
 
 .Up__Descsession .DescPhoto {
-  padding: 15px;
+  padding-bottom: 15px;
 }
 
 .Up__Descsession .DescText {
@@ -85,6 +85,8 @@ html {
   width: 1000px;
   margin: 0 auto;
   text-align: center;
+  font-size: 13px;
+  line-height: 140%;
 }
 
 .toHead {
@@ -125,7 +127,6 @@ html {
   justify-content: center;
   text-align: center;
   margin-right: 10px;
-  font-size: 0.8rem;
 }
 
 .menuMove .menuMove__move li a {
@@ -181,6 +182,7 @@ html {
 }
 .Hamburger__Up .Up__Photosession {
   width: 50%;
+  padding: 10px;
 }
 
 .Hamburger__Up .Up__Descsession {
@@ -206,6 +208,7 @@ html {
 }
 .Chicken__Up .Up__Photosession {
   width: 50%;
+  padding: 10px;
 }
 
 .Chicken__Up .Up__Descsession {
@@ -230,6 +233,7 @@ html {
 }
 .Flat-top-dogs__Up .Up__Photosession {
   width: 50%;
+  padding: 10px;
 }
 
 .Flat-top-dogs__Up .Up__Descsession {
@@ -254,6 +258,7 @@ html {
 }
 .Side__Up .Up__Photosession {
   width: 50%;
+  padding: 10px;
 }
 
 .Side__Up .Up__Descsession {
@@ -278,6 +283,7 @@ html {
 }
 .Custard__Up .Up__Photosession {
   width: 50%;
+  padding: 10px;
 }
 
 .Custard__Up .Up__Descsession {
@@ -302,6 +308,7 @@ html {
 }
 .Concretes__Up .Up__Photosession {
   width: 50%;
+  padding: 10px;
 }
 
 .Concretes__Up .Up__Descsession {
@@ -326,6 +333,7 @@ html {
 }
 .Drinks__Up .Up__Photosession {
   width: 50%;
+  padding: 10px;
 }
 
 .Drinks__Up .Up__Descsession {
@@ -350,6 +358,7 @@ html {
 }
 .Breakfast__Up .Up__Photosession {
   width: 50%;
+  padding: 10px;
 }
 
 .Breakfast__Up .Up__Descsession {
@@ -373,6 +382,7 @@ html {
 }
 .Woof__Up .Up__Photosession {
   width: 50%;
+  padding: 10px;
 }
 
 .Woof__Up .Up__Descsession {

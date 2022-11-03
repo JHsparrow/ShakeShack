@@ -1,8 +1,8 @@
 .Loc__Desc {
-  width: 780px;
+  width: 780px !important;
   line-height: 22px;
   font-size: 13px;
-  margin-top: 50px;
+  margin-top: 50px !important;
 }
 
 .Loc__SubDesc {

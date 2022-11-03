@@ -137,6 +137,7 @@ main .main__img {
   background-color: #60ae2b;
   height: 320px;
   margin: 0 auto;
+  text-align: center;
 }
 
 main > .main__img > .img3 {
@@ -144,6 +145,11 @@ main > .main__img > .img3 {
   width: 1062px;
   height: 320px;
   background: url(../IMG/sub_visual_brandstory.jpg) no-repeat;
+}
+
+.main__Desc {
+  width: 1062px;
+  margin: 0 auto;
 }
 
 footer {
@@ -210,34 +216,10 @@ footer .details p {
   color: #4e4e4e;
 }
 
-footer .details .bottom {
-  color: #999999;
-}
-
-footer .fb {
-  background: white;
-  /* margin: 0 auto; */
-  width: 60px;
-  height: 45px;
-  position: absolute;
-  left: 450px;
-  bottom: 50px;
-  font-size: 1.3rem;
-  border-radius: 4px;
-  background-color: #1877f2;
-}
-
-footer .fb .fb__like {
-  height: 22px;
-  line-height: 22px;
-  background-color: #fff;
-  border-radius: 4px 4px 0px 0px;
-}
-
-footer .fb .fb__like span {
-  font-size: 1.2rem;
+footer .details .bottom a {
+  color: #999999 !important;
 }
 
 .headerFont {
-  font-family: "Lobster", cursive;
+  font-family: 'Lobster', cursive;
 }

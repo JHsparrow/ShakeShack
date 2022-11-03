@@ -1,0 +1,54 @@
+.Loc__Desc {
+  width: 780px;
+  line-height: 22px;
+  font-size: 13px;
+  margin-top: 50px;
+}
+
+.Loc__SubDesc {
+  padding: 0 10px;
+  margin: 20px;
+}
+.Loc__SubDesc2 {
+  padding: 0 10px;
+  margin: 20px;
+}
+.bb1px {
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  display: block;
+  margin: 50px 0;
+}
+
+.Loc__info {
+  display: flex;
+}
+.Loc__info > li {
+  width: 33.3%;
+  text-align: center;
+}
+
+.Loc__info > li > .tit {
+  font-size: 14px;
+  font-weight: bold;
+}
+.Loc__info > li > .disc {
+  line-height: 20px;
+}
+.Loc__info > li > .sns {
+  margin-top: 10px;
+  position: relative;
+  left: 4px;
+}
+.Loc__info > li > .sns > a > img {
+  margin-right: 10px;
+}
+
+.Loc__Map__Container {
+  width: 100vw;
+  background-color: #60ae2b;
+}
+.map {
+  width: 1062px;
+  margin: 0 auto;
+}

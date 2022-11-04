@@ -1,0 +1,244 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrapper {
+    width: 1730px;
+    height: 746px;
+    padding: 10px;
+}
+
+
+.leftside {
+    float: left;
+    width: 590px;
+    height: 746px;
+    text-align: right;
+    font-size: 50px;
+    line-height: 600px;
+    padding-right: 10px;
+    color: black;
+}
+
+
+.rightside {
+    float: left;
+    width: 400px;
+    height: 746px;
+    text-align: left;
+    font-size: 50px;
+    line-height: 600px;
+    padding-left: 10px;
+    color: black;
+}
+
+
+.imgbox {
+    background-color: #60ae2b;;
+}
+
+.img {
+    background-image: url("../img/deltitle.jpg");
+    text-align: center;
+    height: 300px;
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+
+
+input.underline {
+    border-left-width:0;
+    border-right-width:0;
+    border-top-width:0;
+    border-bottom-width:1;
+    }
+
+select.underline {
+    border-left-width:0;
+    border-right-width:0;
+    border-top-width:0;
+    border-bottom-width:1;
+    }
+
+.main { 
+    text-align: center;
+    width: 500px;
+    height: 746px;
+    margin: 0 auto;
+    float: left;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    padding: 120px 0;
+    font-size: 50px;
+    font-family:'lobster';
+}
+
+.div {
+    padding: 13px;
+}
+
+
+.label {
+height: 500px;
+width: 30px;
+font-size: 15px;
+}
+
+.border1 {
+    width: 400px;
+    height: 120px;
+    margin: 0 auto;
+    background-color: white;
+    border: solid 3px #7fcc4c;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    
+}
+
+.border2 {
+    width: 400px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: white;
+    border: solid 3px #7fcc4c;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+}
+
+
+.id {
+    width: 400px;
+    height: 27px;
+    border: dotted 0.5px #60ae2b;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.underline:focus{
+    outline: none;
+    border: none;
+    box-shadow: 0 0 3px #60ae2b;
+}
+
+.underline:hover{
+    border: none;
+    box-shadow: 0 0 3px #60ae2b;
+}
+
+
+.pw {
+    border: dotted 0.5px #60ae2b;
+    width: 400px;
+    height: 27px;
+    text-align: center;
+    
+    }
+    
+    .pw2 {
+        border: dotted 0.5px #60ae2b;
+        width: 400px;
+        height: 27px;
+        text-align: center;
+        }
+        
+    .name {
+        border: dotted 0.5px #60ae2b;
+        width: 400px;
+        height: 27px;
+        text-align: center;
+        }
+
+        hr{
+            border: none;
+        }
+        
+    #sex {
+        width: 400px;
+        height: 40px;
+        border: solid 2.5px #60ae2b;
+        text-align: center;
+        text-decoration-color: #60ae2b;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .year {
+        border: dotted 0.5px #60ae2b;
+        width: 120px;
+        height: 27px;
+        text-align: center;
+    }
+
+    .select {
+        border: dotted 0.5px #60ae2b;
+        width: 120px;
+        height: 27px;
+        text-align: center;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .day {
+        border: dotted 0.5px #60ae2b;
+        width: 120px;
+        height: 27px;
+        text-align: center;
+    }
+    
+    .select1 {
+        border: dotted 0.5px #60ae2b;
+        width: 120px;
+        height: 27px;
+        text-align: center;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .tel {
+        border: dotted 0.5px #60ae2b;
+        width: 220px;
+        height: 27px;
+        text-align: center;
+    }
+
+    .tel-input {
+        color: black;
+        border: dotted 0.5px #60ae2b;
+        width: 100px;
+        height: 27px;
+        text-align: center;
+        background-color: white;
+        border-radius: 15px;
+        cursor: pointer;
+
+    }
+
+    .tel2 {
+        border: dotted 0.5px #60ae2b;
+        width: 200px;
+        height: 27px;
+        text-align: center;
+    }
+    
+.signup-button{
+    
+    border: none;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    background-color: rgb(124, 179, 41);
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    ;
+
+}

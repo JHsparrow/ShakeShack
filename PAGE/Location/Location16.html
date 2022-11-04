@@ -52,13 +52,17 @@
                   <li class="half">
                     <p class="tit">매장주소</p>
                     <p class="disc">
-                      서울시 강남구 강남대로 452 <br />대연빌딩 1층 <br />
-                      (구주소)서울시 강남구 역삼동 809-13<br />
-                      TEL 02-553-5576
+                      서울특별시 강남구 영동대로 513<br />지하1층 (삼성동,
+                      코엑스)
                     </p>
                     <br />
                     <p class="tit">주차 안내</p>
-                    <p class="disc">30분 당 3000원</p>
+                    <p class="disc">
+                      만원 이상의 구매 영수증<br />
+                      메가박스 매표소 제시 시,<br />
+                      4시간 4,800원 할인 가능<br />
+                      (메가박스와 중복할인 불가)
+                    </p>
                   </li>
                   <li>
                     <p class="tit">공유하기</p>
@@ -99,7 +103,7 @@
               <script>
                 function initMap() {
                   var map = new google.maps.Map(
-                    document.getElementById('map'),
+                    document.getElementById("map"),
                     {
                       zoom: 17,
                       center: { lat: 37.510942, lng: 127.059623 },
@@ -107,7 +111,7 @@
                   );
 
                   var image =
-                    'http://www.shakeshack.kr/images/location/gmap_pin.png';
+                    "http://www.shakeshack.kr/images/location/gmap_pin.png";
                   var beachMarker = new google.maps.Marker({
                     position: { lat: 37.510942, lng: 127.059623 },
                     map: map,
@@ -128,8 +132,8 @@
     <div id="footer"></div>
     <!-- footer 끝 -->
     <script>
-      $('#header').load('./Header.html');
-      $('#footer').load('./Footer.html');
+      $("#header").load("./Header.html");
+      $("#footer").load("./Footer.html");
     </script>
   </body>
 </html>

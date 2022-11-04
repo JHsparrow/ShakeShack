@@ -52,13 +52,22 @@
                   <li class="half">
                     <p class="tit">매장주소</p>
                     <p class="disc">
-                      서울시 강남구 강남대로 452 <br />대연빌딩 1층 <br />
-                      (구주소)서울시 강남구 역삼동 809-13<br />
-                      TEL 02-553-5576
+                      서울시 관악구 신림로 330<br />1층 (신림동, 타임스트림)
                     </p>
                     <br />
                     <p class="tit">주차 안내</p>
-                    <p class="disc">30분 당 3000원</p>
+                    <p class="disc">
+                      30분 미만 1,000원 <br />
+                      10분당 700원 <br />
+                      <br />
+                      무료 주차 적용 안내 <br />
+                      1만원 이상 ~ 3만원 미만 : 1시간<br />
+                      3만원 이상 ~ 5만원 미만 : 2시간<br />
+                      5만원 이상 ~ : 3시간<br />
+                      타임스트림 구매영수증 지참 시, <br />
+                      추가 1시간 무료 적용<br />
+                      (최대 4시간 적용 가능)
+                    </p>
                   </li>
                   <li>
                     <p class="tit">공유하기</p>
@@ -99,7 +108,7 @@
               <script>
                 function initMap() {
                   var map = new google.maps.Map(
-                    document.getElementById('map'),
+                    document.getElementById("map"),
                     {
                       zoom: 17,
                       center: { lat: 37.483871, lng: 126.930207 },
@@ -107,7 +116,7 @@
                   );
 
                   var image =
-                    'http://www.shakeshack.kr/images/location/gmap_pin.png';
+                    "http://www.shakeshack.kr/images/location/gmap_pin.png";
                   var beachMarker = new google.maps.Marker({
                     position: { lat: 37.483871, lng: 126.930207 },
                     map: map,
@@ -128,8 +137,8 @@
     <div id="footer"></div>
     <!-- footer 끝 -->
     <script>
-      $('#header').load('./Header.html');
-      $('#footer').load('./Footer.html');
+      $("#header").load("./Header.html");
+      $("#footer").load("./Footer.html");
     </script>
   </body>
 </html>

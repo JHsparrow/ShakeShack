@@ -166,7 +166,6 @@
   /* border: 2px solid black; */
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
-
   background-color: #66cc00;
 }
 
@@ -184,7 +183,7 @@
   font-size: 1.5rem;
   vertical-align: middle;
   margin-top: 30px;
-  outline: 1;
+  outline: 1px;
   background-color: transparent;
   font-family: "Noto Serif KR", serif;
   font-weight: bold;
@@ -412,7 +411,7 @@
 
 .social__p {
   margin: 10px 0px 10px;
-  color: green;
+  color: #60ae2b;
 }
 
 .social > li > img {
@@ -431,17 +430,17 @@
   font-size: 18px;
   background: #fff;
   /* Center slide text vertically */
-  display: -webkit-box;
+  /* display: -webkit-box;
   display: -ms-flexbox;
-  display: -webkit-flex;
+  display: -webkit-flex; */
   display: flex;
-  -webkit-box-pack: center;
+  /* -webkit-box-pack: center;
   -ms-flex-pack: center;
-  -webkit-justify-content: center;
+  -webkit-justify-content: center; */
   justify-content: center;
-  -webkit-box-align: center;
+  /* -webkit-box-align: center;
   -ms-flex-align: center;
-  -webkit-align-items: center;
+  -webkit-align-items: center; */
   align-items: center;
 }
 
@@ -458,7 +457,7 @@
 }
 
 .swiper .swiper-pagination-bullet {
-  background-color: greenyellow;
+  background-color: #60ae2b;
   margin: 0 10px;
 }
 

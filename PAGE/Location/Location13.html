@@ -51,14 +51,17 @@
                   </li>
                   <li class="half">
                     <p class="tit">매장주소</p>
-                    <p class="disc">
-                      서울시 강남구 강남대로 452 <br />대연빌딩 1층 <br />
-                      (구주소)서울시 강남구 역삼동 809-13<br />
-                      TEL 02-553-5576
-                    </p>
+                    <p class="disc">대구 중구 동성로6길 61</p>
                     <br />
                     <p class="tit">주차 안내</p>
-                    <p class="disc">30분 당 3000원</p>
+                    <p class="disc">
+                      기본 30분 1800원<br />
+                      추가 10분 당 600원<br />
+                      <br />
+                      1만원 이상 구매 시 1시간 무료<br />
+                      3만원 이상 구매 시 2시간 무료<br />
+                      6만원 이상 구매 시 3시간 무료
+                    </p>
                   </li>
                   <li>
                     <p class="tit">공유하기</p>
@@ -99,7 +102,7 @@
               <script>
                 function initMap() {
                   var map = new google.maps.Map(
-                    document.getElementById('map'),
+                    document.getElementById("map"),
                     {
                       zoom: 17,
                       center: { lat: 35.868626, lng: 128.59863 },
@@ -107,7 +110,7 @@
                   );
 
                   var image =
-                    'http://www.shakeshack.kr/images/location/gmap_pin.png';
+                    "http://www.shakeshack.kr/images/location/gmap_pin.png";
                   var beachMarker = new google.maps.Marker({
                     position: { lat: 35.868626, lng: 128.59863 },
                     map: map,
@@ -128,8 +131,8 @@
     <div id="footer"></div>
     <!-- footer 끝 -->
     <script>
-      $('#header').load('./Header.html');
-      $('#footer').load('./Footer.html');
+      $("#header").load("./Header.html");
+      $("#footer").load("./Footer.html");
     </script>
   </body>
 </html>

@@ -52,13 +52,17 @@
                   <li class="half">
                     <p class="tit">매장주소</p>
                     <p class="disc">
-                      서울시 강남구 강남대로 452 <br />대연빌딩 1층 <br />
-                      (구주소)서울시 강남구 역삼동 809-13<br />
-                      TEL 02-553-5576
+                      대전광역시 서구 대덕대로 211 1층<br />(둔산동 갤러리아
+                      타임월드 백화점)
                     </p>
                     <br />
                     <p class="tit">주차 안내</p>
-                    <p class="disc">30분 당 3000원</p>
+                    <p class="disc">
+                      30분 무료<br />
+                      3만원 이상 1시간 이용<br />
+                      5만원 이상 2시간 이용<br />
+                      10만원 이상 3시간 이용
+                    </p>
                   </li>
                   <li>
                     <p class="tit">공유하기</p>
@@ -99,7 +103,7 @@
               <script>
                 function initMap() {
                   var map = new google.maps.Map(
-                    document.getElementById('map'),
+                    document.getElementById("map"),
                     {
                       zoom: 17,
                       center: { lat: 36.351876, lng: 127.378289 },
@@ -107,7 +111,7 @@
                   );
 
                   var image =
-                    'http://www.shakeshack.kr/images/location/gmap_pin.png';
+                    "http://www.shakeshack.kr/images/location/gmap_pin.png";
                   var beachMarker = new google.maps.Marker({
                     position: { lat: 36.351876, lng: 127.378289 },
                     map: map,
@@ -128,8 +132,8 @@
     <div id="footer"></div>
     <!-- footer 끝 -->
     <script>
-      $('#header').load('./Header.html');
-      $('#footer').load('./Footer.html');
+      $("#header").load("./Header.html");
+      $("#footer").load("./Footer.html");
     </script>
   </body>
 </html>

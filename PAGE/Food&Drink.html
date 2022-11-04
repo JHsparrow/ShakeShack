@@ -32,6 +32,27 @@
         </div>
       </div>
       <!-- 페이지 최상단 이동  -->
+      <!-- start near shops map API -->
+      <div class="mapAround">
+        <div id="mapDesc">
+          <a href="../PAGE/Location/Location01.html">
+            지금 가장 가까운 <br />
+            <img
+              src="http://shakeshack.kr/images/common/ss_logo.png"
+              alt="로고"
+              width="80"
+              height="20"
+            />
+            매장을 <br />찾아보세요!</a
+          >
+        </div>
+        <div
+          id="map"
+          style="width: 150px; height: 350px; border: 1px solid #60ae2b"
+        ></div>
+        <p><span id="maplevel"></span></p>
+      </div>
+      <!-- near shops map API OVER -->
       <div class="menuSession">
         <!-- <div class="toHead">
             <p class="Head__Up"> <i class="fa-solid fa-circle-arrow-up"></i> </p>
@@ -1624,6 +1645,11 @@
     <script src="../js/jquery-3.6.0.min.js"></script>
     <script src="../js/common.js"></script>
     <script src="../js/interaction.js"></script>
+    <script
+      type="text/javascript"
+      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=3d86a3d72c51d8218a744548614333b5"
+    ></script>
+    <script src="../JS/Food&Drink_map.js"></script>
     <script>
       $('#header').load('./Include/Header.html');
       $('#footer').load('./Include/Footer.html');

@@ -89,6 +89,22 @@ html {
   line-height: 140%;
 }
 
+/* add MAP session */
+.mapAround {
+  position: fixed;
+  top: 500px;
+  left: 5%;
+  width: 150px;
+  text-align: center;
+  margin: 10px;
+  /* display: none; */
+}
+
+#mapDesc > a {
+  margin-bottom: 15px;
+}
+/* MAP session OVER */
+
 .toHead {
   display: none;
   margin-left: 1030px;

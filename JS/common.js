@@ -1,5 +1,5 @@
 $('.menu_Location').click(function () {
-  $('header .location').slideToggle();
+  $('.location').slideToggle();
 });
 
 $('.menu_Location a').mouseover(function () {

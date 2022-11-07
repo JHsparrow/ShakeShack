@@ -16,15 +16,14 @@
           <div class="main__img">
             <img
               src="http://www.shakeshack.kr/images/location/sub_visual_doota_180404.jpg"
-              alt="매장 이미지"
+              alt="두타"
             />
           </div>
-          <a href="../Order.html"></a>
           <div class="main__Desc Loc__Desc">
             <div>
               <img
                 src="http://www.shakeshack.kr/images/location/location_tit03.png"
-                alt=""
+                alt="위치안내"
               />
               <div class="Loc__SubDesc">
                 <p>
@@ -108,7 +107,7 @@
               <script>
                 function initMap() {
                   var map = new google.maps.Map(
-                    document.getElementById("map"),
+                    document.getElementById('map'),
                     {
                       zoom: 17,
                       center: { lat: 37.5689358, lng: 127.0088037 },
@@ -116,7 +115,7 @@
                   );
 
                   var image =
-                    "http://www.shakeshack.kr/images/location/gmap_pin.png";
+                    'http://www.shakeshack.kr/images/location/gmap_pin.png';
                   var beachMarker = new google.maps.Marker({
                     position: { lat: 37.5689358, lng: 127.0088037 },
                     map: map,
@@ -137,8 +136,8 @@
     <div id="footer"></div>
     <!-- footer 끝 -->
     <script>
-      $("#header").load("./Header.html");
-      $("#footer").load("./Footer.html");
+      $('#header').load('./Header.html');
+      $('#footer').load('./Footer.html');
     </script>
   </body>
 </html>

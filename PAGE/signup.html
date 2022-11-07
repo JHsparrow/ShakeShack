@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/signup.css">
+    
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Nanum+Myeongjo:wght@700&family=Stylish&display=swap');
+    </style>
+</head>
+<div id="header"></div>
+<body>
+<div class="imgbox">
+    <div class="img">
+        <h1 class="title">SignUp Order</h1>
+    </div>
+</div>
+<div class="wrapper">
+<div class="leftside">
+    <span>S</span>
+    <span>H</span>
+    <span>A</span>
+    <span>K</span>
+    <span>E</span>
+
+
+</div>
+<div class="main">
+            <br><div class="border1"></div>
+            <div class="div">
+                <label class="label" for="id"></label>
+                <input id="id" type="text" class="id underline" placeholder="아이디를 입력하세요" required>
+            </div>
+            <div class="div">
+                <label class="label" for="pw"></label>
+                <input id="pw" type="password" class="pw underline" placeholder="비밀번호를 입력하세요" required>
+                
+            </div>
+            <div class="div">
+                <label class="label" for="pw2"></label>
+                <input id="pw2" type="password" class="pw2 underline" placeholder="비밀번호를 다시 입력하세요">
+            </div>
+            <div class="div">
+                <label class="label" for="name"></label>
+                <input id="name" type="text" class="name underline" placeholder="이름을 입력하세요">
+            </div>
+            <div class="div">
+            <label class="label" for="sex"></label>
+                <select id="sex" class="underline">성별
+                    <option value="mf">성별을 입력하세요</option>
+                    <option value="male">남자</option>
+                    <option value="female">여자</option>
+                </select><br><br>
+            </div>
+            <label class="label" for="name"></label>
+                    <input type="text" class="year underline" placeholder="년(4자)">
+                    <select class="select" id="month">
+                        <option value="month">월</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                    <input type="text" class="day underline" placeholder="일"> <br><br>
+
+                <div class="div">
+                    <label class="label"></label>
+                    <select class="select1">
+                    <option value="nations">대한민국+82</option>
+                        <option value="nations">나라</option>
+                    </select>
+                <input type="tel" class="tel underline" placeholder="휴대폰 번호를 입력하세요"> <br><br>
+                <div class="div">
+                <button class="tel-input">인증번호 받기</button>
+                <input type="tel" class="tel2 underline" placeholder="인증번호를 입력하세요">
+                </div><br>
+                <div class="border2"></div>
+                <div class="hi">
+                    <br><br><br>
+                    <input id="button" type="submit" class="signup-button mg1" value="회원가입"></input>
+                    <button class="signup-button mg2">돌아가기</button>
+                    
+                </div>
+    </div>
+
+</div>
+<div class="rightside">
+    <span>S</span>
+    <span>H</span>
+    <span>A</span>
+    <span>C</span>
+    <span>K</span>
+    <span>°</span>
+</div>
+</div>
+<div id="footer"></div>
+<script>
+    $('#header').load('./Include/Header.html');
+    $('#footer').load('./Include/Footer.html');
+  </script>
+    <script src="../JS/signup.js"></script>
+</body>
+</html>

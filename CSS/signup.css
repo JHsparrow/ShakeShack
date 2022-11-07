@@ -1,0 +1,218 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+/* 전체 창 */
+.wrapper {
+    width: 1730px;
+    height: 746px;
+    padding: 10px;
+}
+/* 좌측 화면 */
+.leftside {
+    float: left;
+    width: 620px;
+    height: 746px;
+    text-align: right;
+    font-size: 50px;
+    line-height: 640px;
+    padding-right: 30px;
+    color: black;
+}
+/* 우측 화면 */
+.rightside {
+    float: left;
+    width: 400px;
+    height: 746px;
+    text-align: left;
+    font-size: 50px;
+    line-height: 640px;
+    padding-left: 30px;
+    color: black;
+}
+/* 상단 메뉴 이미지 박스 */
+.imgbox {
+    background-color: #60AE2B;
+}
+/* 햄버거 이미지 크기 설정 */
+.img {
+    background-image: url(“../img/deltitle.jpg”);
+    text-align: center;
+    height: 300px;
+    width: 1000px;
+    margin: 0 auto;
+}
+/* underline 그어지도록 인풋창 설정 */
+input.underline {
+    border-left-width:0;
+    border-right-width:0;
+    border-top-width:0;
+    border-bottom-width:1px;
+    }
+/* underline 그어지도록 셀렉트 창 설정 */
+select.underline {
+    border-left-width:0;
+    border-right-width:0;
+    border-top-width:0;
+    border-bottom-width:1px;
+    }
+    /* 가운데 주요 화면 설정 */
+.main {
+    text-align: center;
+    width: 500px;
+    height: 746px;
+    margin: 0 auto;
+    float: left;
+}
+/* 회원가입 대문 문구 설정 */
+.title {
+    color: white;
+    text-align: center;
+    padding: 120px 0;
+    font-size: 50px;
+    font-family:‘lobster’;
+}
+/* 줄별 보폭 설정  */
+.div {
+    padding: 13px;
+}
+.label {
+height: 500px;
+width: 30px;
+font-size: 15px;
+}
+/* 햄버거 빵 모양 윗 도형 설정 */
+.border1 {
+    width: 400px;
+    height: 120px;
+    margin: 0 auto;
+    background-color: white;
+    border: solid 3px #7FCC4C;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+/* 햄버거 빵 모양 아랫 도형 설정 */
+.border2 {
+    width: 400px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: white;
+    border: solid 3px #7FCC4C;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+}
+.id {
+    width: 400px;
+    height: 27px;
+    border: dotted 0.5px #60AE2B;
+    text-align: center;
+    padding-top: 5px;
+}
+/* underline 선택, hover 시 설정 */
+.underline:focus{
+    outline: none;
+    border: none;
+    box-shadow: 0 0 3px #60AE2B;
+}
+.underline:hover{
+    border: none;
+    box-shadow: 0 0 3px #60AE2B;
+}
+.pw {
+    border: dotted 0.5px #60AE2B;
+    width: 400px;
+    height: 27px;
+    text-align: center;
+    }
+    .pw2 {
+        border: dotted 0.5px #60AE2B;
+        width: 400px;
+        height: 27px;
+        text-align: center;
+        }
+    .name {
+        border: dotted 0.5px #60AE2B;
+        width: 400px;
+        height: 27px;
+        text-align: center;
+        }
+        hr{
+            border: none;
+        }
+    #sex {
+        width: 400px;
+        height: 40px;
+        border: solid 2.5px #60AE2B;
+        text-align: center;
+        text-decoration-color: #60AE2B;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+    .year {
+        border: dotted 0.5px #60AE2B;
+        width: 120px;
+        height: 27px;
+        text-align: center;
+    }
+    .select {
+        border: dotted 0.5px #60AE2B;
+        width: 120px;
+        height: 27px;
+        text-align: center;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+    .day {
+        border: dotted 0.5px #60AE2B;
+        width: 120px;
+        height: 27px;
+        text-align: center;
+    }
+    .select1 {
+        border: dotted 0.5px #60AE2B;
+        width: 120px;
+        height: 27px;
+        text-align: center;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+/* 전화번호 설정 */
+    .tel {
+        border: dotted 0.5px #60AE2B;
+        width: 220px;
+        height: 27px;
+        text-align: center;
+    }
+    .tel-input {
+        color: black;
+        border: dotted 0.5px #60AE2B;
+        width: 100px;
+        height: 27px;
+        text-align: center;
+        background-color: white;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+/* 인증번호 설정 */
+    .tel2 {
+        border: dotted 0.5px #60AE2B;
+        width: 200px;
+        height: 27px;
+        text-align: center;
+    }
+    /* 가입하기 및 돌아가기 버튼 설정 */
+.signup-button{
+    border: none;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    background-color: rgb(124, 179, 41);
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    ;
+}

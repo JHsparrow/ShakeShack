@@ -2,42 +2,43 @@ body {
     padding: 0px;
     margin: 0px;
 }
-
+/* 전체 창 */
 .wrapper {
     width: 1730px;
     height: 746px;
     padding: 10px;
 }
 
-
+/* 좌측 화면 */
 .leftside {
     float: left;
-    width: 590px;
+    width: 620px;
     height: 746px;
     text-align: right;
     font-size: 50px;
-    line-height: 600px;
-    padding-right: 10px;
+    line-height: 640px;
+    padding-right: 30px;
     color: black;
 }
 
-
+/* 우측 화면 */
 .rightside {
     float: left;
     width: 400px;
     height: 746px;
     text-align: left;
     font-size: 50px;
-    line-height: 600px;
-    padding-left: 10px;
+    line-height: 640px;
+    padding-left: 30px;
     color: black;
 }
 
-
+/* 상단 메뉴 이미지 박스 */
 .imgbox {
-    background-color: #60ae2b;;
+    background-color: #60ae2b;
 }
 
+/* 햄버거 이미지 크기 설정 */
 .img {
     background-image: url("../img/deltitle.jpg");
     text-align: center;
@@ -47,21 +48,23 @@ body {
     
 }
 
-
+/* underline 그어지도록 인풋창 설정 */
 input.underline {
     border-left-width:0;
     border-right-width:0;
     border-top-width:0;
-    border-bottom-width:1;
+    border-bottom-width:1px;
     }
 
+/* underline 그어지도록 셀렉트 창 설정 */
 select.underline {
     border-left-width:0;
     border-right-width:0;
     border-top-width:0;
-    border-bottom-width:1;
+    border-bottom-width:1px;
     }
 
+    /* 가운데 주요 화면 설정 */
 .main { 
     text-align: center;
     width: 500px;
@@ -70,6 +73,7 @@ select.underline {
     float: left;
 }
 
+/* 회원가입 대문 문구 설정 */
 .title {
     color: white;
     text-align: center;
@@ -78,6 +82,7 @@ select.underline {
     font-family:'lobster';
 }
 
+/* 줄별 보폭 설정  */
 .div {
     padding: 13px;
 }
@@ -89,6 +94,7 @@ width: 30px;
 font-size: 15px;
 }
 
+/* 햄버거 빵 모양 윗 도형 설정 */
 .border1 {
     width: 400px;
     height: 120px;
@@ -102,6 +108,7 @@ font-size: 15px;
     
 }
 
+/* 햄버거 빵 모양 아랫 도형 설정 */
 .border2 {
     width: 400px;
     height: 60px;
@@ -123,6 +130,7 @@ font-size: 15px;
     padding-top: 5px;
 }
 
+/* underline 선택, hover 시 설정 */
 .underline:focus{
     outline: none;
     border: none;
@@ -202,7 +210,7 @@ font-size: 15px;
         border-radius: 30px;
         cursor: pointer;
     }
-
+/* 전화번호 설정 */
     .tel {
         border: dotted 0.5px #60ae2b;
         width: 220px;
@@ -221,7 +229,7 @@ font-size: 15px;
         cursor: pointer;
 
     }
-
+/* 인증번호 설정 */
     .tel2 {
         border: dotted 0.5px #60ae2b;
         width: 200px;
@@ -229,6 +237,7 @@ font-size: 15px;
         text-align: center;
     }
     
+    /* 가입하기 및 돌아가기 버튼 설정 */
 .signup-button{
     
     border: none;
